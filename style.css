@@ -1,4 +1,13 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
-  width: 900px;
-  text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
